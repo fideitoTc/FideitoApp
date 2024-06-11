@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="icon" type="image/png" href="imagenes/lentes.png">
+  <title>FIDEITO APP</title>
+</head>
+<body class="body-2">
+<nav class="var-1" >     
+  <h1 class="h1-log" >FIDEITO APP</h1>
+</nav>
+
+<br>
+
+<h5 class="mas-peliculas">Películas nuevas</h5>
+
+    <div class="cards-container grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-5 xl:grid-cols-5 gap-4 max-w-screen-xl mx-auto p-5">
+    </div>
+
+    <div class="flex justify-center items-center py-10">
+        <button id="loadMoreBtn" class="bg-blue-500 text-white px-4 py-2 rounded mt-4">Cargar más</button>
+    </div>
+</body>
+
+<script type="module" src="./src/movie.js"></script>
+</html>

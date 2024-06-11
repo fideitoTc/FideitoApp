@@ -1,0 +1,37 @@
+.body-1  {
+    background-color: #433d3d;
+
+}
+
+.body-2 {
+    background-color: #433d3d;
+
+}
+
+.var-1 {
+    background-color: #212121;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #66d9ef;
+}
+
+.h1-log {
+    color: #66d9ef;
+    font-size: 28px;
+    margin: 0;
+    font-weight: bold;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.mas-peliculas {
+    font-size: 29px;
+    color: #66d9ef;
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);    transition: all 0.3s ease-in-out;
+    text-align: center;
+}
+
